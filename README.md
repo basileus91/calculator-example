@@ -9,7 +9,7 @@ Before you can build this project, you must install and configure the following 
 1. [Node.js]
 
 After installing Node, you should be able to run the following command to install development tools.
-You will only need to run this command when dependencies change in [package.json](package.json).
+You will only need to run from src/main/webapp this command when dependencies change in [package.json](package.json).
 
     npm install
 
@@ -19,12 +19,12 @@ Run the following command from src/main/webapp to start project.
 
     npm start
 
-2. To Start the server use the following command:
+2. To Start the server use the following command or use an IDE to start the application:
 
     mvn spring-boot:run
 
 ## Testing
 
-To launch your application's tests, run:
+To launch your application's tests, run or use an IDE:
 
     ./mvnw verify
